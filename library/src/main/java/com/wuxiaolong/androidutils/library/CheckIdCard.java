@@ -1,10 +1,5 @@
 package com.wuxiaolong.androidutils.library;
 
-/**
- * 校验银行卡卡号
- * Created by WuXiaolong
- * on 2016/5/22.
- */
 public class CheckIdCard {
     /**
      * 校验银行卡卡号

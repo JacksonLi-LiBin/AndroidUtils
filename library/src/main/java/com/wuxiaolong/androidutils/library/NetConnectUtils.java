@@ -76,5 +76,4 @@ public class NetConnectUtils {
         return false;
     }
 
-
 }

@@ -4,14 +4,13 @@ import android.content.Context;
 import android.util.DisplayMetrics;
 import android.view.WindowManager;
 
-/**
- * 获取屏幕分辨率
- * Created by Administrator
- * on 2016/5/25.
- */
 public class DisplayMetricsUtil {
 
-
+    /**
+     * 获取屏幕分辨率
+     * Created by Administrator
+     * on 2016/5/25.
+     */
     public static DisplayMetrics getDisplayMetrics(Context context) {
         WindowManager windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
         DisplayMetrics metrics = new DisplayMetrics();

@@ -9,15 +9,6 @@ import android.net.Uri;
 import android.os.Environment;
 import android.widget.Toast;
 
-/**
- * DownloadUtil downloadUtil = new DownloadUtil(activity, downloadUrl);
- * //下载显示名字，不能是中文
- * downloadUtil.setDownloadFileName("apkName" + System.currentTimeMillis() + ".apk");
- * downloadUtil.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
- * downloadUtil.start();
- * Created by Administrator
- * on 2016/5/4.
- */
 public class DownloadUtil {
     private Context mContext;
     private String downloadFileName = "weiyan.apk";
@@ -25,6 +16,15 @@ public class DownloadUtil {
     private static DownloadManager downloadManager;
     private DownloadManager.Request downloadRequest;
 
+    /**
+     * DownloadUtil downloadUtil = new DownloadUtil(activity, downloadUrl);
+     * //下载显示名字，不能是中文
+     * downloadUtil.setDownloadFileName("apkName" + System.currentTimeMillis() + ".apk");
+     * downloadUtil.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+     * downloadUtil.start();
+     * Created by Administrator
+     * on 2016/5/4.
+     */
     public DownloadUtil(Context context, String downloadUrl) {
         this.mContext = context;
         initDownload(downloadUrl);

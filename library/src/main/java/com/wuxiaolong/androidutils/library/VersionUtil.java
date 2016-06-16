@@ -4,10 +4,6 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 
-/**
- * Created by Administrator
- * on 2016/5/24.
- */
 public class VersionUtil {
     /**
      * 获取版本号

@@ -8,10 +8,6 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Locale;
 
-/**
- * Created by WuXiaolong
- * on 2016/5/20.
- */
 public class TimeUtil {
     /**
      * 获取当前时间
