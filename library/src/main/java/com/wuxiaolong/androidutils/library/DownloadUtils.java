@@ -9,7 +9,7 @@ import android.net.Uri;
 import android.os.Environment;
 import android.widget.Toast;
 
-public class DownloadUtil {
+public class DownloadUtils {
     private Context mContext;
     private String downloadFileName = "weiyan.apk";
     private static long myReference;
@@ -17,13 +17,13 @@ public class DownloadUtil {
     private DownloadManager.Request downloadRequest;
 
     /**
-     * DownloadUtil downloadUtil = new DownloadUtil(activity, downloadUrl);
+     * DownloadUtils downloadUtils = new DownloadUtils(activity, downloadUrl);
      * //下载显示名字，不能是中文
      * downloadUtil.setDownloadFileName("apkName" + System.currentTimeMillis() + ".apk");
      * downloadUtil.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
      * downloadUtil.start();
      */
-    public DownloadUtil(Context context, String downloadUrl) {
+    public DownloadUtils(Context context, String downloadUrl) {
         this.mContext = context;
         initDownload(downloadUrl);
     }

@@ -1,6 +1,6 @@
 package com.wuxiaolong.androidutils.library;
 
-public class CheckIdCard {
+public class BankCardUtils {
     /**
      * 校验银行卡卡号
      *

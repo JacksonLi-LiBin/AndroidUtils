@@ -8,7 +8,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Locale;
 
-public class TimeUtil {
+public class TimeUtils {
     /**
      * 获取当前时间
      *

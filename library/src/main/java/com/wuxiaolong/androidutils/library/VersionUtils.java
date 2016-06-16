@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 
-public class VersionUtil {
+public class VersionUtils {
     /**
      * 获取版本号
      *

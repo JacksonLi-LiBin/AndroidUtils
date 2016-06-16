@@ -9,7 +9,7 @@ import android.os.Environment;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 
-public class AbsolutePathUtil {
+public class AbsolutePathUtils {
     /**
      * 通过Url获取绝对路径
      * (http://stackoverflow.com/questions/13209494/how-to-get-the-full-file-path-from-uri)

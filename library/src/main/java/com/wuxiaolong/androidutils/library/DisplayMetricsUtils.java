@@ -4,7 +4,7 @@ import android.content.Context;
 import android.util.DisplayMetrics;
 import android.view.WindowManager;
 
-public class DisplayMetricsUtil {
+public class DisplayMetricsUtils {
 
     /**
      * 获取屏幕分辨率

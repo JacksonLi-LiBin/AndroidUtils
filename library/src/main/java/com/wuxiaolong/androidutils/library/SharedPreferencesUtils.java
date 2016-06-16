@@ -7,7 +7,7 @@ import android.preference.PreferenceManager;
 /**
  * SharedPreferences工具类
  */
-public class SharedPreferencesUtil {
+public class SharedPreferencesUtils {
     public static String getString(Context context, String key,
                                    final String defaultValue) {
         final SharedPreferences settings = PreferenceManager

@@ -1,6 +1,6 @@
 package com.wuxiaolong.androidutils.library;
 
-public class LogUtil {
+public class LogUtils {
     private static final String TAG = BuildConfig.TAG;
     private static final boolean LOG = BuildConfig.LOG;
 
