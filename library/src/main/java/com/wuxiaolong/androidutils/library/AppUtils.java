@@ -18,10 +18,6 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.text.DecimalFormat;
 
-/**
- * Created by WuXiaolong
- * on 2016/3/22.
- */
 public class AppUtils {
     /**
      * 关闭键盘

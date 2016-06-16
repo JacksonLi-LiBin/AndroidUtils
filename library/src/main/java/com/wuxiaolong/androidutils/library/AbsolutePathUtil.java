@@ -13,8 +13,6 @@ public class AbsolutePathUtil {
     /**
      * 通过Url获取绝对路径
      * (http://stackoverflow.com/questions/13209494/how-to-get-the-full-file-path-from-uri)
-     * Created by WuXiaolong
-     * on 2016/5/20.
      */
     public static String getAbsolutePath(final Context context, final Uri uri) {
         // DocumentProvider
