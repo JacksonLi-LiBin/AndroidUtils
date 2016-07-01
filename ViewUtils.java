@@ -1,14 +1,7 @@
-package com.camnter.easygank.utils;
-
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.view.View;
 
-/**
- * Description：ViewUtil
- * Created by：CaMnter
- * Time：2015-12-04 22:33
- */
 public class ViewUtils {
 
     /**
