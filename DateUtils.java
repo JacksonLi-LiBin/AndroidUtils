@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Locale;
 
-public class TimeUtils {
+public class DateUtils {
     public static String[] WEEK = new String[] { "天", "一", "二", "三", "四", "五", "六" };
 
     public static final long ONE_SECOND = 1000;
