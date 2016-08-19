@@ -56,6 +56,23 @@ public class DeviceUtils {
     public static int deviceHeight(Context context) {
         return context.getResources().getDisplayMetrics().heightPixels;
     }
+    
+
+    /**
+     * 获取控件宽高
+     */
+     public static void widgetWidthHeight(View view){
+          ViewTreeObserver vto = view.getViewTreeObserver();
+            vto.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+                @Override
+                public void onGlobalLayout() {
+                    view.getViewTreeObserver().removeGlobalOnLayoutListener(this);
+                    view.getHeight();
+                    view.getWidth();
+                    System.out.println(attractionImgIV.getHeight() + "----------------" + attractionImgIV.getWidth());
+                }
+            });
+     }
 
 
     /**
